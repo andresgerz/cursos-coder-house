@@ -1,0 +1,135 @@
+/* 
+Clase 4
+
+- El menu debe tener un estilo de viñeta 'square' un tamaño de fuente de 14px y un color 333333 sin subrayado
+- El h1 debe ser fuenta arial con tamaño 40px con un line height de 24px mayusculas y color 222222
+- Los parrafos deben ser fuente verdana con alternativa arial, tamaño de 18px line height de 18px y color 555555.
+- Span dentro del p debe ser: italic, bold, underline y color 0099cc
+- Clase text-right debe alinear el parrafo a la derecha.
+- Clase bigger debe poner la fuente en tamaño 24px
+- clase text_color_red debe poner el color de la fuente en rojo (ff0000)
+- El footer debe tener un background color 121e23 con color de fuente 789789
+- el Id main button debe tener un background color beee48 un color de texto ffffff, el texto en mayusculas con un espaciado de palabras de 5px y de letra de 2px  
+
+
+
+Clase 5
+
+- Establecer el header con un 100% de ancho, 60px de alto y un fondo de 121e23.
+- Establecer que el header sea relative y con un margen inferior de 30px
+- Establecer el menu en una sola linea y sin las viñetas y de color blanco.
+- Establecer el menu centrado con un margen de 15px horizontal entre sus items y 10px superior.
+- Establecer un padding de 10px arriba y abajo y de 5px a los costados a todos los parrafos
+- Establecer un margin de 5px entre un parrafo y otro (superior e inferior)
+- Poner el parrafo con clase "text-right" con un ancho de 400px y flotado a la derecha
+- Poner el boton con un ancho de 120px y un alto de 40px.
+- Establecer un borde para el boton mainButton con un color distinto al del fondo.
+- Establecer el footer como absoluto con ancho de 100% y un padding superior e inferior de 20px
+- Establecer el footer alineado al bottom de la pagina y su texto centrado.
+
+
+
+*/
+
+
+/*  Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  height: 100vh;
+}
+
+#header {
+  width: 100%;
+  height: 60px;
+  background-color: #121e23;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+.text_color_red {
+  color: #ff0000;
+}
+
+
+#footer {
+  background-color: #121e23;
+  color: #789789;
+  float: bottom;
+  text-align: center;
+}
+
+
+.bigger {
+  font-size: 24px;
+}
+
+
+.text-right {
+  text-align: right;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+
+ul li a{
+  color: #fff;
+}
+
+
+h1 {
+  font-size: 40px;
+  line-height: 24px;
+  color: #222222;
+}
+
+
+p {
+  font-family: verdana, arial;
+  line-height: 18px;
+  color: #555555;
+  padding: 10px 5px;
+}
+
+
+p span {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  color: #0099cc;
+}
+
+/* probando 
+
+.boxes-wrapper {
+  position: relative;
+}
+
+
+.box-1 {
+  position: absolute;
+  z-index: 1;
+  background-color: #0099cc;
+  width: 100px;
+  height: 100px;
+}
+
+
+.box-2 {
+  position: absolute;
+  z-index: 5;
+  background-color: seagreen;
+  width: 100px;
+  height: 100px;
+} */

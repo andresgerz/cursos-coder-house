@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Consultorio Radiológico</title>
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
   <header>
@@ -57,7 +58,7 @@
   </header>
   <hr>
   <main>
-    <table border="2" cellpadding="10">
+    <table class="table-turnos" border="2" cellpadding="10">
       <caption><h1>Turnos</h1></caption>
       <thead>
         <tr>
@@ -214,7 +215,7 @@
     </table>
     <br>
     <h2>Reserve su turno:</h2>
-    <form name="turnos_form" method="POST">
+    <form class="form-turno" name="turnos_form" method="POST">
       <table cellspacing="20">
         <tbody>
           <tr>
@@ -313,6 +314,7 @@
             <td>
               <select name="horario" id="form_horario">
                 <option selected="selected" value="0">Seleccione...</option>
+                <option value="">--- Mañana ---</option>
                 <option value="6:30">6:30 hs</option>
                 <option value="7:00">7:00 hs</option>
                 <option value="7:30">7:30 hs</option>
@@ -324,6 +326,7 @@
                 <option value="10:30">10:30 hs</option>
                 <option value="11:00">11:00 hs</option>
                 <option value="11:30">11:30 hs</option>
+                <option value="">--- Tarde ---</option>
                 <option value="17:00">17:00 hs</option>
                 <option value="17:30">17:30 hs</option>
                 <option value="18:00">18:00 hs</option>

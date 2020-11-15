@@ -1,0 +1,12 @@
+- Establecer el header con un 100% de ancho, 60px de alto y un fondo de 121e23.
+- Establecer que el header sea relative y con un margen inferior de 30px
+- Establecer el menu en una sola linea y sin las viñetas y de color blanco.
+- Establecer el menu centrado con un margen de 15px horizontal entre sus items y 10px superior.
+- Establecer un padding de 10px arriba y abajo y de 5px a los costados a todos los parrafos
+- Establecer un margin de 5px entre un parrafo y otro (superior e inferior)
+- Poner el parrafo con clase "text-right" con un ancho de 400px y flotado a la derecha
+- Poner el boton con un ancho de 120px y un alto de 40px.
+- Establecer un borde para el boton mainButton con un color distinto al del fondo.
+- Establecer el footer como absoluto con ancho de 100% y un padding superior e inferior de 20px
+- Establecer el footer alineado al bottom de la pagina y su texto centrado.
+
